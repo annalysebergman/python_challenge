@@ -3,7 +3,7 @@ import os
 import csv
 
 # Path for file
-csvpath = os.path.join('..', 'PyBank', 'Resources', 'budget_data.csv')
+csvpath = os.path.join('python_challenge', 'PyBank', 'Resources', 'budget_data.csv')
 
 # Reading csv file
 with open(csvpath) as csvfile:
@@ -15,3 +15,8 @@ with open(csvpath) as csvfile:
 
     for row in csvreader:
         print(row)
+
+# Financial Analysis
+# Total number of months
+def print_counts('csvreader'):
+    
