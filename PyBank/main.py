@@ -18,5 +18,10 @@ with open(csvpath) as csvfile:
 
 # Financial Analysis
 # Total number of months
-def print_counts('csvreader'):
-    
+budget_list = list(csvreader)
+
+print(len(budget_list))
+
+
+
+
