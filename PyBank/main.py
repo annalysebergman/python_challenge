@@ -6,7 +6,7 @@ import csv
 csvpath = os.path.join('python_challenge', 'PyBank', 'Resources', 'budget_data.csv')
 
 # Path to analysis text file
-analysispath = os.path.join('python_challenge', 'PyBank', 'Analysis', 'Analysis.txt')
+analysispath = os.path.join('python_challenge', 'PyBank', 'analysis', 'Analysis.txt')
 
 # Reading csv file
 with open(csvpath) as csvfile:
